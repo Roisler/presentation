@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/sky.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<textarea data-template>## Introduction</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## What is WebRTC?
+					</textarea>
+				</section>
+				<section>
+					<h2>Key Features of WebRTC</h2>
+					<section>
+						<h6>Peer-to-Peer Communication</h6>
+					</section>
+					<section>
+						<h6>Cross-platform Compatibility</h6>
+					</section>
+					<section>
+						<h6>Security</h6>
+					</section>
+					<section>
+						<h6>Scalability</h6>
+					</section>
+					<section>
+						<h6>Interoperability</h6>
+					</section>
+				</section>
+				<section>
+					<h6>WebRTC Architecture</h6>
+					<img data-src="./th.jpeg">
+				</section>
+				<section>
+					<h2>WebRTC Protocols and Standards</h2>
+					<ul>
+						<li>SDP (Session Description Protocol)</li>
+						<li>TURN (Traversal Using Relays around NAT)</li>
+						<li>NAT (Network Address Translation)</li>
+						<li>ICE (Interactive Connectivity Establishment)</li>
+						<li>STUN (Session Traversal Utilities for NAT)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>WebRTC Use Cases</h2>
+					<ul>
+						<li>Video Conferencing</li>
+						<li>Voice Calling</li>
+						<li>Live Streaming</li>
+						<li>Telehealth</li>
+						<li>Customer Support</li>
+					</ul>
+				</section>
+<section>
+	<h2>Conclusion</h2>
+</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
